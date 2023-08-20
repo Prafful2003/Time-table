@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Making Time Table </title>
+</head>
+
+<style>
+          table , tr, td
+          {
+             border: 1px solid black;
+             border-collapse: collapse;
+             text-align: center;
+          }
+</style>
+
+<body>
+          <table> 
+                 
+            <colgroup>
+                <col span="1" style="background-color: orange">
+            </colgroup>
+
+
+                   <tr>
+                         <td colspan="6"> Time Table </td>
+                         <!-- <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td> -->
+                   </tr>
+                   <tr>
+                          <td rowspan="6"> <b> Hours </b> </td>
+                          <td> <b> Mon </b> </td>
+                          <td> <b> Tue </b> </td>
+                          <td> <b> Wed </b> </td>
+                          <td> <b> Thu </b> </td>
+                          <td> <b> Fri </b> </td>
+                   </tr>
+                   <tr>
+                          <!-- <td> Hours </td> -->
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Arts </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <td> Sports </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td colspan="5"> <b> Lunch </b> </td>
+                         <!-- <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td> -->
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td rowspan="2"> Project </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <!-- <td> Project </td> -->
+                   </tr>
+          </table> <br> 
+
+          <caption> Colgroup use in Second table </caption>
+          <table> 
+                 
+            <colgroup>
+                <col span="1">
+                <col span="1" style="background-color: rgb(59, 218, 117)">
+                <col span="1" style="background-color: rgb(194, 85, 222)">
+                <col span="" style="background-color: bisque;"> 
+                <!-- Default value taking 1 -->
+            </colgroup>
+
+
+                   <tr>
+                         <td colspan="6"> Time Table </td>
+                         <!-- <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td> -->
+                   </tr>
+                   <tr>
+                          <td rowspan="6"> <b> Hours </b> </td>
+                          <td> <b> Mon </b> </td>
+                          <td> <b> Tue </b> </td>
+                          <td> <b> Wed </b> </td>
+                          <td> <b> Thu </b> </td>
+                          <td> <b> Fri </b> </td>
+                   </tr>
+                   <tr>
+                          <!-- <td> Hours </td> -->
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Arts </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <td> Sports </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td colspan="5"> <b> Lunch </b> </td>
+                         <!-- <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td> -->
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td rowspan="2"> Project </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <!-- <td> Project </td> -->
+                   </tr>
+          </table> <br>
+
+          <caption> Col group use in third table </caption>
+          <table> 
+                 
+            <colgroup>
+                 <!-- color in three coloumn -->
+                <col span="3" style="background-color:green">
+            </colgroup>
+ 
+
+                   <tr>
+                         <td colspan="6"> Time Table </td>
+                         <!-- <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td> -->
+                   </tr>
+                   <tr>
+                          <td rowspan="6"> <b> Hours </b> </td>
+                          <td> <b> Mon </b> </td>
+                          <td> <b> Tue </b> </td>
+                          <td> <b> Wed </b> </td>
+                          <td> <b> Thu </b> </td>
+                          <td> <b> Fri </b> </td>
+                   </tr>
+                   <tr>
+                          <!-- <td> Hours </td> -->
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Arts </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <td> Sports </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td colspan="5"> <b> Lunch </b> </td>
+                         <!-- <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td> -->
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td rowspan="2"> Project </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <!-- <td> Project </td> -->
+                   </tr>
+          </table> <br> 
+
+          <caption> Col group use in fourth table </caption>
+          <table> 
+                 
+            <colgroup>
+                 <!-- color in three coloumn -->
+                 <col span="1">
+                <col span="3" style="background-color: yellow">
+            </colgroup>
+ 
+
+                   <tr>
+                         <td colspan="6"> Time Table </td>
+                         <!-- <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td> -->
+                   </tr>
+                   <tr>
+                          <td rowspan="6"> <b> Hours </b> </td>
+                          <td> <b> Mon </b> </td>
+                          <td> <b> Tue </b> </td>
+                          <td> <b> Wed </b> </td>
+                          <td> <b> Thu </b> </td>
+                          <td> <b> Fri </b> </td>
+                   </tr>
+                   <tr>
+                          <!-- <td> Hours </td> -->
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Arts </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <td> Sports </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td colspan="5"> <b> Lunch </b> </td>
+                         <!-- <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td> -->
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td rowspan="2"> Project </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <!-- <td> Project </td> -->
+                   </tr>
+          </table> <br> 
+
+
+          <caption> Col group use in fifth table </caption>
+          <table> 
+                 
+            <colgroup>
+                 <!-- color in three coloumn -->
+                 <col span="1">
+                <col span="1" style="background-color: red">
+                <col span="1">
+                <col span="1" style="background-color: red">
+            </colgroup>
+ 
+
+                   <tr>
+                         <td colspan="6"> Time Table </td>
+                         <!-- <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td>
+                         <td> Time Table </td> -->
+                   </tr>
+                   <tr>
+                          <td rowspan="6"> <b> Hours </b> </td>
+                          <td> <b> Mon </b> </td>
+                          <td> <b> Tue </b> </td>
+                          <td> <b> Wed </b> </td>
+                          <td> <b> Thu </b> </td>
+                          <td> <b> Fri </b> </td>
+                   </tr>
+                   <tr>
+                          <!-- <td> Hours </td> -->
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Science </td>
+                          <td> Maths </td>
+                          <td> Arts </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <td> Sports </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td colspan="5"> <b> Lunch </b> </td>
+                         <!-- <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td>
+                         <td> Lunch </td> -->
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td> Science </td>
+                         <td> Maths </td>
+                         <td rowspan="2"> Project </td>
+                   </tr>
+                   <tr>
+                         <!-- <td> Hours </td> -->
+                         <td> Social </td>
+                         <td> History </td>
+                         <td> English </td>
+                         <td> Social </td>
+                         <!-- <td> Project </td> -->
+                   </tr>
+          </table> <br> 
+
+          
+          <caption> Using visibility hidden for particular coloumn </caption>
+      <table> 
+
+          <colgroup>
+            <!-- color in three coloumn -->
+            <col span="1"> 
+           <col span="1" style="background-color: rgb(28, 192, 77)">
+           <col span="1">
+           <col span="1" style="visibility: hidden">
+           <col span="1" style="background-color: violet;">
+           <col span="1" style="visibility: collapse;"> 
+          </colgroup>
+
+
+              <tr>
+                    <td colspan="5"> Time Table </td>
+                    <!-- <td> Time Table </td>
+                    <td> Time Table </td>
+                    <td> Time Table </td>
+                    <td> Time Table </td> -->
+                    <td> Time Table </td> 
+              </tr>
+              <tr>
+                     <td rowspan="6"> <b> Hours </b> </td>
+                     <td> <b> Mon </b> </td>
+                     <td> <b> Tue </b> </td>
+                     <td> <b> Wed </b> </td>
+                     <td> <b> Thu </b> </td>
+                     <td> <b> Fri </b> </td>
+              </tr>
+              <tr>
+                     <!-- <td> Hours </td> -->
+                     <td> Science </td>
+                     <td> Maths </td>
+                     <td> Science </td>
+                     <td> Maths </td>
+                     <td> Arts </td>
+              </tr>
+              <tr>
+                    <!-- <td> Hours </td> -->
+                    <td> Social </td>
+                    <td> History </td>
+                    <td> English </td>
+                    <td> Social </td>
+                    <td> Sports </td>
+              </tr>
+              <tr>
+                    <!-- <td> Hours </td> -->
+                    <td colspan="4"> <b> Lunch </b> </td>
+                    <!-- <td> Lunch </td>
+                    <td> Lunch </td>
+                    <td> Lunch </td> -->
+                    <td> Lunch </td> 
+              </tr>
+              <tr>
+                    <!-- <td> Hours </td> -->
+                    <td> Science </td>
+                    <td> Maths </td>
+                    <td> Science </td>
+                    <td> Maths </td>
+                    <td rowspan="2"> Project </td>
+              </tr>
+              <tr>
+                    <!-- <td> Hours </td> -->
+                    <td> Social </td>
+                    <td> History </td>
+                    <td> English </td>
+                    <td> Social </td>
+                    <!-- <td> Project </td> -->
+              </tr>
+     </table> <br> 
+</body>
+</html>
